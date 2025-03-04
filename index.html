@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charades Game</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-area {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        .word-display {
+            font-size: 2rem;
+            margin: 20px 0;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .timer {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #4CAF50;
+        }
+
+        .teams {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .team {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            min-width: 150px;
+        }
+
+        .team h3 {
+            margin-bottom: 10px;
+        }
+
+        .score {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .controls button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 10px;
+            transition: background 0.3s;
+        }
+
+        .controls button:hover {
+            background: #45a049;
+        }
+
+        .controls button:disabled {
+            background: #cccccc;
+            cursor: not-allowed;
+        }
+
+        .category-select {
+            margin: 20px 0;
+        }
+
+        select {
+            padding: 8px;
+            font-size: 1rem;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Charades Game</h1>
+        <div class="game-area">
+            <div class="category-select">
+                <select id="category">
+                    <option value="movies">Movies</option>
+                    <option value="animals">Animals</option>
+                    <option value="actions">Actions</option>
+                    <option value="objects">Objects</option>
+                </select>
+            </div>
+            <div class="word-display" id="wordDisplay">Press Start to begin!</div>
+            <div class="timer" id="timer">60</div>
+            <div class="teams">
+                <div class="team">
+                    <h3>Team 1</h3>
+                    <div class="score" id="team1Score">0</div>
+                </div>
+                <div class="team">
+                    <h3>Team 2</h3>
+                    <div class="score" id="team2Score">0</div>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="startBtn">Start Round</button>
+                <button id="correctBtn" disabled>Correct!</button>
+                <button id="skipBtn" disabled>Skip</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
