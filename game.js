@@ -3,7 +3,7 @@ const words = {
     movies: ['Star Wars', 'Titanic', 'Jurassic Park', 'The Matrix', 'Finding Nemo', 'Avatar', 'The Lion King'],
     animals: ['Elephant', 'Penguin', 'Giraffe', 'Kangaroo', 'Monkey', 'Lion', 'Dolphin'],
     actions: ['Swimming', 'Dancing', 'Cooking', 'Sleeping', 'Running', 'Jumping', 'Laughing'],
-    objects: ['Chair', 'Telephone', 'Umbrella', 'Guitar', 'Clock', 'Camera', 'Book']
+    objects: ['Chair', 'Telephone', 'Umbrella', 'Guitar', 'Clock', 'Camera', 'Book', 'Table', 'Lamp', 'Computer', 'Sofa', 'Bed']
 };
 
 // Game state
