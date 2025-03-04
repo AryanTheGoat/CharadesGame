@@ -1,7 +1,7 @@
 // Word lists for different categories
 const words = {
     movies: ['Star Wars', 'Titanic', 'Jurassic Park', 'The Matrix', 'Finding Nemo', 'Avatar', 'The Lion King', 'The Godfather', 'The Shawshank Redemption', "Schindler's List"],
-    animals: ['Elephant', 'Penguin', 'Giraffe', 'Kangaroo', 'Monkey', 'Lion', 'Dolphin' 'Lion', 'Tiger', 'Elephant', 'Giraffe', 'Zebra', 'Kangaroo', 'Panda', 'Koala'],
+    animals: ['Elephant', 'Penguin', 'Giraffe', 'Kangaroo', 'Monkey', 'Lion', 'Dolphin', 'Lion', 'Tiger', 'Elephant', 'Giraffe', 'Zebra', 'Kangaroo', 'Panda', 'Koala'],
     actions: ['Swimming', 'Dancing', 'Cooking', 'Sleeping', 'Running', 'Jumping', 'Laughing', 'Run', 'Jump', 'Walk', 'Sit', 'Stand', 'Dance', 'Sing', 'Speak', 'Write'],
     objects: ['Chair', 'Telephone', 'Umbrella', 'Guitar', 'Clock', 'Camera', 'Book', 'Table', 'Lamp', 'Computer', 'Sofa', 'Bed', 'Cupboard', 'Pillow', 'Coffee', 'Bed']
 };
