@@ -1,8 +1,8 @@
 // Word lists for different categories
 const words = {
-    movies: ['Star Wars', 'Titanic', 'Jurassic Park', 'The Matrix', 'Finding Nemo', 'Avatar', 'The Lion King', 'The Godfather', 'The Shawshank Redemption', "Schindler's List", 'Pulp Fiction', 'The Dark Knight', 'The Lord of the Rings: The Return of the King', 'Forrest Gump', 'Inception', 'Fight Club', 'The Matrix', 'Goodfellas'],
-    animals: ['Elephant', 'Penguin', 'Giraffe', 'Kangaroo', 'Monkey', 'Lion', 'Dolphin' 'Lion', 'Tiger', 'Elephant', 'Giraffe', 'Zebra', 'Kangaroo', 'Panda', 'Koala', 'Penguin', 'Dolphin', 'Shark', 'Whale', 'Eagle', 'Owl', 'Hawk', 'Bat', 'Cheetah', 'Leopard', 'Rhino', 'Hippo', 'Crocodile', 'Alligator', 'Monkey', 'Gorilla', 'Chimpanzee', 'Bear', 'Wolf', 'Fox', 'Rabbit'],
-    actions: ['Swimming', 'Dancing', 'Cooking', 'Sleeping', 'Running', 'Jumping', 'Laughing', 'Run', 'Jump', 'Walk', 'Sit', 'Stand', 'Dance', 'Sing', 'Speak', 'Write', 'Read', 'Listen', 'Clap', 'Kneel', 'Bow', 'Laugh', 'Cry', 'Shout', 'Whisper', 'Hug', 'Kiss', 'Wave', 'Frown', 'Smile', 'Stare', 'Look', 'Reach', 'Throw', 'Catch', 'Throw', 'Push', 'Pull', 'Kick', 'Punch', 'Stretch', 'Bend', 'Lift', 'Carry', 'Drop', 'Pick', 'Build', 'Destroy', 'Create', 'Destroy', 'Cook', 'Clean', 'Play', 'Work', 'Rest', 'Sleep', 'Think', 'Meditate'],
+    movies: ['Star Wars', 'Titanic', 'Jurassic Park', 'The Matrix', 'Finding Nemo', 'Avatar', 'The Lion King', 'The Godfather', 'The Shawshank Redemption', "Schindler's List"],
+    animals: ['Elephant', 'Penguin', 'Giraffe', 'Kangaroo', 'Monkey', 'Lion', 'Dolphin' 'Lion', 'Tiger', 'Elephant', 'Giraffe', 'Zebra', 'Kangaroo', 'Panda', 'Koala'],
+    actions: ['Swimming', 'Dancing', 'Cooking', 'Sleeping', 'Running', 'Jumping', 'Laughing', 'Run', 'Jump', 'Walk', 'Sit', 'Stand', 'Dance', 'Sing', 'Speak', 'Write'],
     objects: ['Chair', 'Telephone', 'Umbrella', 'Guitar', 'Clock', 'Camera', 'Book', 'Table', 'Lamp', 'Computer', 'Sofa', 'Bed', 'Cupboard', 'Pillow', 'Coffee', 'Bed']
 };
 
